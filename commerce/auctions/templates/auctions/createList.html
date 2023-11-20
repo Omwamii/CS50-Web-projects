@@ -1,0 +1,15 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2 class="p-3 mb-2 bg-primary text-white text-center" style="width: 75.5%; margin-left: 100px;">Create a Listing</h2>
+    <form enctype="multipart/form-data" action="{% url 'create' %}" method="post">
+        {% csrf_token %}
+	{{ form.title }}
+	{{ form.description }}
+	{{ form.starting_bid }}
+	<small class="form-text text-muted" style="margin-left: 100px;">Choose listing image (optional)</small>
+	{{ form.image }}
+	<small class="form-text text-muted" style="margin-left: 100px;">Choose category (optional)</small>
+	{{ form.category }}
+	<button type="submit" class="btn btn-primary mb-3" style="margin-left: 100px; margin-top: 15px;">Create</button>
+{% endblock %}

@@ -1,0 +1,3 @@
+#LISP
+
+Lisp, an acronym for list processing, is a functional programming language that was designed for easy manipulation of data strings. As one of the oldest programming languages still in use, Lisp offers several different dialects and has influenced the development of other languages. Learning Lisp puts you at a high percentile of earnings. Edit Lisp...

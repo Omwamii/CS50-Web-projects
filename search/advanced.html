@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Google</a>
+        </nav>
+        <h1>Advanced Search</h1>
+        <div id="line"></div><!--Draw thin line-->
+        <div class="form">
+        <table>
+        <form action="https://google.com/search">
+            <tr>
+                <td id="find" colspan="2">Find pages with..</td>
+                <td class="extra" id="todo">To do this in the search box.</td>
+            </tr>
+            <tr>
+                <td><label for="all">all these words:</label></td>
+                <td><input type="text" name="as_q" class="input" autofocus autocomplete="off"></td>
+                <td class="extra">Type the important words: tri-colour rat terrier</td>
+            </tr>
+            <tr>
+                <td><label for="exact">this exact word or phrase:</label></td>
+                <td><input type="text" name="as_q" class="input" autocomplete="off"></td>
+                <td class="extra">Put exact words in quotes: "rat terrier"</td>
+            </tr>
+            <tr>
+                <td><label for="any">any of these words:</label></td>
+                <td><input type="text" name="as_q" class="input" autocomplete="off"></td>
+                <td class="extra">Type OR between all the words you want: miniature OR standard</td>
+            </tr>
+            <tr>
+                <td><label for="none">none of these words:</label></td>
+                <td><input type="text" name="as_q" class="input" autocomplete="off"></td>
+                <td class="extra">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Advanced Search" id="search"></td>
+            </tr>
+        </form>
+        </table>
+        </div>
+    </body>
+</html>

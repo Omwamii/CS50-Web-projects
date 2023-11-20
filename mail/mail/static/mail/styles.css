@@ -1,0 +1,60 @@
+textarea {
+    min-height: 400px;
+}
+
+body {
+    background-image: url('./back.jpg');
+    background-size: 1600px;
+}
+.read {
+    color: white;
+    background-color: grey;
+}
+
+.unread {
+    color: grey;
+    background-color: white;
+}
+
+.mail {
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+#usr {
+    font-size: 30px;
+    color: whitesmoke;
+    /* margin-right: 45px; */
+}
+
+.b-text {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.btn {
+    margin: 0 20px;
+    color: whitesmoke;
+    width: 90px;
+    border: 1px solid;
+}
+
+.reply-btn {
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px 10px 15px 0;
+}
+p {
+    margin: 50px 0;
+    font-weight: 800;
+    font-size: 20px;
+}
