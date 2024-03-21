@@ -1,0 +1,125 @@
+.notifications {
+    padding-top: 15px;
+    height: 100%;
+}
+
+.card {
+    max-width: 800px !important;
+    margin: 12px auto;
+}
+
+.units {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    max-width: 700px !important;
+    margin: 10px auto;
+}
+
+.assignment-view {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.assignment {
+    max-width: 700px;
+    margin-bottom: 10px;
+}
+
+.card-deck {
+    height: 100%;
+}
+
+.pending {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.pending-work-btns {
+    padding-top: 7px;
+}
+
+#view {
+    margin-left: 10px;
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.grade-view {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.p-fieldset-legend {
+    max-width: 140px;
+    height: 60px;
+    position: absolute;
+    left: 2%;
+    top: -10%;
+    font-weight: 400;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#notifs {
+    margin: 32px auto;
+}
+
+.p-fileupload-content {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.unit-btn {
+    width: 700px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.app-content {
+    margin-top: 55px;
+}
+
+#chart {
+    width: 80%;
+    height: 80%;
+    margin: 60px auto 10px;
+}
+
+#mark-done {
+    margin-left: 7px;
+}
+
+.p-progress-spinner {
+    margin: 200px 65px 20px 700px; 
+}
+
+.arrow {
+    margin-left: 50px;
+    transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.disp-text {
+    margin: 150px 0 50px 500px;
+}
+
+#desc {
+    margin-left: 450px;
+    margin-top: 75px;
+}
